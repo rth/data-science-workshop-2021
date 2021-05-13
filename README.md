@@ -30,15 +30,35 @@ You can run the notebooks in a binder: [![Binder](https://mybinder.org/badge_log
 
 The course uses Python 3 and some data analysis packages such as Numpy, Pandas, scikit-learn, matplotlib, and seaborn. To install the required libraries, we highly recommend Anaconda or miniconda (<https://www.anaconda.com/download/>) or another Python distribution that includes the scientific libraries (this recommendation applies to all platforms, so for both Window, Linux and Mac).
 
-### Install Anaconda
+### Setup
 
-For first time users and people not fully confident with using the command line, we advice to install Anaconda, by downloading and installing the Python 3.x version from <https://www.anaconda.com/download/>. Recent computers will require the 64-Bit installer.
+#### Option 1 (recommended): Install Anaconda
 
-For more detailed instructions to install Anaconda, check the [Windows](https://docs.anaconda.com/anaconda/install/windows/), [Mac](https://docs.anaconda.com/anaconda/install/mac-os/) or [linux](https://docs.anaconda.com/anaconda/install/linux/) installation tutorial.
+For first time users and people not fully confident with using the command line, we recommend installing Anaconda, by downloading the Python 3.x installer from <https://www.anaconda.com/products/individual#Downloads>. Recent computers will require the 64-Bit installer.
 
-**Note:** When you are already familiar to the command line and Python environments you could opt to use Miniconda instead of Anaconda and download it  from <https://conda.io/miniconda.html>. The main difference is that Anaconda provides a graphical user interface (Anaconda navigator) and a whole lot of scientific packages (e.g <https://docs.anaconda.com/anaconda/packages/py3.6_win-64/>) when installing, whereas for Miniconda the user needs to install all packages using the command line. On the other hand, Miniconda requires less disc space. By choosing Miniconda, create the workshop environment using the `environment.yml` file: `conda env create -f environment.yml`
+For more details, check the Anaconda installation instructions for your operating system:
+- [Windows](https://docs.anaconda.com/anaconda/install/windows/)
+- [Mac](https://docs.anaconda.com/anaconda/install/mac-os/)
+- [linux](https://docs.anaconda.com/anaconda/install/linux/)
 
-### Install/check of required packages
+#### Option 2: Install Miniconda
+
+If you are already familiar to the command line and Python environments you could opt to use Miniconda instead of Anaconda and download it  from <https://docs.conda.io/en/latest/miniconda.html>. The main difference is that Anaconda provides a graphical user interface (Anaconda navigator) and a whole lot of scientific packages (e.g <https://docs.anaconda.com/anaconda/packages/py3.6_win-64/>) when installing, whereas for Miniconda the user needs to install all packages using the command line. On the other hand, Miniconda requires less disc space. 
+
+By choosing Miniconda, create (and activate) the workshop environment using the `environment.yml` file:
+```shell
+conda env create -f environment.yml
+conda activate python-workshop
+```
+
+#### Option 3: Other Python distributions
+
+Make sure you have all the required packages installed. If not, you can install them with `pip`:
+```shell
+pip install -r requirements
+```
+
+### Required packages
 
 This tutorial will require recent installations of
 
@@ -55,7 +75,7 @@ This tutorial will require recent installations of
 - [pandas-profiling](https://pandas-profiling.github.io/pandas-profiling/docs/)
 
 
-The last one is important and you should be able to type:
+The Jupyter requirement is important and you should be able to type:
 
 ```bash
 jupyter notebook
