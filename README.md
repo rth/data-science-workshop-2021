@@ -55,7 +55,7 @@ conda activate python-workshop
 
 Make sure you have all the required packages installed. If not, you can install them with `pip`:
 ```shell
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ### Required packages
@@ -85,13 +85,26 @@ in your terminal window and see the notebook panel load in your web browser. Try
 
 After obtaining the material, we **strongly recommend** you to open and execute the script using `python check_env.py` that is located at the top level of this repository.
 
-We also recommend you to update the scikit-learn the latest release version to ensure best compatibility with the teaching material. Please upgrade already installed packages by executing
+We also recommend you to update the scikit-learn to the latest release version to ensure best compatibility with the teaching material. Please upgrade already installed packages by executing
 
 ```bash
 conda update [package-name]
 ```
 
 Depending on how you installed ``scikit-learn``.
+
+
+### Additional setup
+
+For the part of the workshop on *Good software development practices*, we recommended:
+- [Git](https://github.com/git-guides/install-git)
+- [GitHub](https://github.com/join)
+- pytest: `pip install pytest`
+
+## Other resources
+
+- [Git Guides](https://github.com/git-guides/)
+- [Open Source Guides](https://opensource.guide/)
 
 
 <img src="img/logoUPSayPlusCDS_990.png"/>
