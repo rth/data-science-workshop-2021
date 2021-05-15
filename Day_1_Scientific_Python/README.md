@@ -1,6 +1,6 @@
 # Day 1 - Scientific programming with Python
 
-Goal: introducing the most important packages for scientific computing and data analysis in Python.
+*Objective: Introduce the PyData ecosystem to manipulate, explore and visualize data.*
 
 Overview:
 
@@ -8,5 +8,5 @@ Overview:
 
 2. Introduction to pandas: [02-pandas_introduction.ipynb](02-pandas_introduction.ipynb)
 
-3. Short overview of matplotlib and seaborn: [03-matplotib_seaborn.ipynb](03-matplotib_seaborn.ipynb)
-
+[comment]: <> (TODO: matplotlib and seaborn or only matplotlib)
+3. Introduction to matplotlib and seaborn: [03-matplotib_seaborn.ipynb](03-matplotib_seaborn.ipynb)
