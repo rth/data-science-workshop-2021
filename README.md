@@ -1,29 +1,29 @@
 # 2-Day Workshop - Introduction to Data Science in Python
 
-Materials for the Paris-Saclay Center for Data Science python workshop
+Materials for the 2-day workshop organized by the Paris-Saclay Center for Data Science (CDS) and the Institut DATAIA Paris-Saclay.
 
 Data science is gaining attention impacting many scientific fields and applications. Data science encompasses a large number of topics such as data mining, data wrangling, data visualisation, pattern recognition, or machine learning.
 
 This workshop intends to give an introduction to some of these topics using Python and the PyData ecosystem. It is not a course on deep learning.
 
-*Note: the material in this repo is WIP, not the finalized material.*
+[comment]: <> (*Note: the material in this repo is WIP, not the finalized material.*)
 
 You can run the notebooks in a binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rth/data-science-workshop-2021/HEAD)
 
 ## Program
 
-### Day 1 -  Data wrangling, exploration, and visualisation
+### Day 1 -  Data manipulation, exploration and visualization
 
-**Goal:** introduce the PyData ecosystem to manipulate, explore, and visualize data.
+*Objective: Introduce the PyData ecosystem to manipulate, explore, and visualize data.*
 
-* Introduction to the basics of numpy, pandas, and matplotlib.
+* Introduction to numpy, pandas, and matplotlib.
 
-### Day 2 - Machine learning
+### Day 2 - Machine Learning
 
-**Goal:** introduce the basics of machine learning using the  scikit-learn library.
+*Objective: Introduce the basics of machine learning using the scikit-learn library.*
 
-* Get familiar with general principles of machine learning;
-* Use these principles by using the scikit-learn library on some toy and real-world data examples.
+* Become familiar with the general principles of machine learning.
+* Apply these principles using the scikit-learn library on examples of simulated and real data.
 
 
 ## Getting started
