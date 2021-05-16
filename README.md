@@ -18,6 +18,7 @@ You can run the notebooks in a binder: [![Binder](https://mybinder.org/badge_log
 
 * Introduction to numpy, pandas, and matplotlib.
 
+
 ### Day 2 - Machine Learning
 
 *Objective: Introduce the basics of machine learning using the scikit-learn library.*
