@@ -8,7 +8,7 @@ This workshop intends to give an introduction to some of these topics using Pyth
 
 [comment]: <> (*Note: the material in this repo is WIP, not the finalized material.*)
 
-You can run the notebooks in a binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rth/data-science-workshop-2021/HEAD)
+You can run the notebooks in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rth/data-science-workshop-2021/HEAD)
 
 ## Program
 
@@ -29,7 +29,10 @@ You can run the notebooks in a binder: [![Binder](https://mybinder.org/badge_log
 
 ## Getting started
 
-The course uses Python 3 and some data analysis packages such as Numpy, Pandas, scikit-learn, matplotlib, and seaborn. To install the required libraries, we highly recommend Anaconda or miniconda (<https://www.anaconda.com/download/>) or another Python distribution that includes the scientific libraries (this recommendation applies to all platforms, so for both Window, Linux and Mac).
+The course uses Python 3 and some data analysis packages such as Numpy, Pandas, scikit-learn, matplotlib, and seaborn. 
+To install the required libraries, we highly recommend [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+This recommendation applies to all platforms, so for Window, Linux and Mac.
+If you use another Python distribution, make sure it includes all the required scientific libraries.
 
 ### Setup
 
