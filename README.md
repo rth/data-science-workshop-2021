@@ -38,7 +38,7 @@ If you use another Python distribution, make sure it includes all the required s
 
 #### Option 1 (recommended): Install Anaconda
 
-For first time users and people not fully confident with using the command line, we recommend installing Anaconda, by downloading the Python 3.x installer from <https://www.anaconda.com/products/individual#Downloads>. Recent computers will require the 64-Bit installer.
+For first time users and people not fully confident with using the command line, we recommend installing Anaconda, by downloading the Python 3.x installer from: <https://www.anaconda.com/products/individual#Downloads>. Recent computers will require the 64-Bit installer.
 
 For more details, check the Anaconda installation instructions for your operating system:
 - [Windows](https://docs.anaconda.com/anaconda/install/windows/)
@@ -47,9 +47,15 @@ For more details, check the Anaconda installation instructions for your operatin
 
 #### Option 2: Install Miniconda
 
-If you are already familiar to the command line and Python environments you could opt to use Miniconda instead of Anaconda and download it  from <https://docs.conda.io/en/latest/miniconda.html>. The main difference is that Anaconda provides a graphical user interface (Anaconda navigator) and a whole lot of scientific packages (e.g <https://docs.anaconda.com/anaconda/packages/py3.6_win-64/>) when installing, whereas for Miniconda the user needs to install all packages using the command line. On the other hand, Miniconda requires less disc space. 
+If you are already familiar with the command line and Python environments, you can choose to use Miniconda instead of 
+Anaconda and download it from: <https://docs.conda.io/en/latest/miniconda.html>. 
+The main difference is that Anaconda provides a graphical user interface (Anaconda navigator) and a full batch of 
+scientific packages (e.g. <https://docs.anaconda.com/anaconda/packages/py3.6_win-64/>) at installation, while for 
+Miniconda the user needs to install all packages using the command line. 
+On the other hand, Miniconda requires much less disk space. 
 
-By choosing Miniconda, create (and activate) the workshop environment using the `environment.yml` file:
+If choosing Miniconda, create (and activate) the a virtual environment (with all requirements for the workshop) by using 
+the `environment.yml` file:
 ```shell
 conda env create -f environment.yml
 conda activate python-workshop
