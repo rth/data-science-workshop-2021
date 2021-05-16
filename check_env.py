@@ -16,7 +16,9 @@ def import_version(pkg, min_ver, fail_msg=""):
     mod = None
     try:
         mod = importlib.import_module(pkg)
-        if pkg in {'PIL'}:
+        if hasattr(mod, '__version__'):
+            ver = mod.__version__
+        elif pkg in {'PIL'}:
             try:
                 ver = mod.VERSION
             except AttributeError:
@@ -25,7 +27,7 @@ def import_version(pkg, min_ver, fail_msg=""):
                 except:
                     raise
         else:
-            ver = mod.__version__
+            raise
         if Version(ver) < min_ver:
             print(FAIL, "%s version %s or higher required, but %s installed."
                   % (lib, min_ver, ver))

@@ -1,17 +1,19 @@
 name: python-workshop
+channels:
+  - conda-forge
 
 dependencies:
-  - python=3.7
-  - numpy
-  - scipy
-  - joblib
-  - scikit-learn
-  - pandas
-  - conda-forge::pandas-profiling
-  - ipython
+  - python=3.8
+  - numpy>=1.20.0
+  - scipy>=1.5.0
+  - joblib>=0.16.0
+  - scikit-learn>=O.23.0
+  - pandas>=1.0.0
+  - pandas-profiling>=2.7.0
+  - ipython>=7.9.0
   - jupyter
-  - pillow
-  - matplotlib
+  - pillow>=7.0.0
+  - matplotlib>=3.2.0
   - mplleaflet
-  - seaborn
-  - plotly
+  - seaborn>=0.9.1
+  - plotly>=4.5.0
