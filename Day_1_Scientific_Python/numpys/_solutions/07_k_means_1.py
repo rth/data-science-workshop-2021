@@ -1,0 +1,1 @@
+data[closest == 0, :].mean(axis=0)
