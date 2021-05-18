@@ -3,7 +3,7 @@
 *Objective: Introduce the basics of machine learning using the scikit-learn library.*
 
 
-- Introductory slides
+- [Introductory slides](https://github.com/rth/data-science-workshop-2021/files/6498933/2021-cds-workshop-machine-learning-with-python.pdf)
 
 All the following material uses a part of the Scikit-learn INRIA MOOC.
 
