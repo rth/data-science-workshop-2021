@@ -1,1 +1,1 @@
-countries['density'] = countries['population']*1000000 / countries['area']
+countries['density'] = countries['population'] * 1e+6 / countries['area']
